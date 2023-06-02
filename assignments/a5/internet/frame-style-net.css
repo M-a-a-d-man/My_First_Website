@@ -1,0 +1,13 @@
+/* style sheet page for styling the Internet files */
+a.subject {text-decoration: none;font-size: 20;font-weight:normal;color: #138D75;}
+/* unvisited links color */
+a.link{color: blue;}
+/* unvisited links color */
+a.visited{color: blue;}
+table{border-spacing:10;padding-left:10;}
+
+.source{text-decoration: none;font-size: 16;font-weight:normal;}
+
+.title{text-decoration: underline;}
+
+img{padding-top: 50;}

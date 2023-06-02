@@ -1,0 +1,32 @@
+<!-- this is going to be the webpage displayed in the buttons frame -->
+<html>
+  <head>
+    <title>Buttons</title>
+    <style type="text/css">
+.info {text-decoration: none; font-weight: bold;font-size: 20;}
+.back {text-align: center;font-weight: bold;font-size: 20; text-decoration: none;padding-top: 5;}
+/* border-spacing is a css attribute
+to customize the amount
+of space between cells and
+the value order is Length then width so 50 px is the horizontal space between cells  */
+table {border-spacing: 50px 0px;padding-top: 10;}
+td{padding-left: 100;padding-right: 100;border-style: outset;border-width: thick;}
+/* This is a technique I learned at the marianopolis Hackathon this year and I thought it might look cool here
+since the banner was looking plain, it is an attribute that adds gradients of colors to a background. */
+body{background: linear-gradient(to right, #43c6ac, #f8ffae);}
+    </style>
+
+  </head>
+  <body>
+    <table align="center">
+      <tr>
+        <td align="center" bgcolor="#F9E79F"><a class="info" target="left" href="computers/computers-index.html">About Computers</a></td> <td bgcolor="#A9DFBF" align="center"><a class="info" href="internet/net-index.html" target="left">About the Internet</a></td>
+      </tr>
+
+    </table>
+    <div class="back"><!--This target value:_top, makes it so that the current page will be replaced by the webpage that is linked. -->
+        <a class="back" href="index-a5.html" target="_top">Back to index a5</a>
+    </div>
+
+  </body>
+</html>
